@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  font-family: 'Roboto', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+header{
+  box-shadow: 0 0 1rem black;
+}
+.title-cervejas{
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.enderecocontainer{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.row{
+  height: 100%;
+}
+.cerveja{
+  height: 500px;
+}
+h2{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.sub-title{
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-size: 16px;
+}
+.faleconosco{
+  display: flex;
+  width: 100%;
+}
+.hor_atendimento{
+  width: 50%;
+  text-align: center;
+}
+.dias{
+  text-align: center;
+  width: 50%;
+}
+.hora{
+  width: 50%;
+  text-align: center;
+}
+.horario_funcionamento{
+  display:flex;
+  width: 100%;
+}
+form{
+  width: 100%;
+}
+.form{
+  width: 50%;
+  padding: 25px;
+}
+.form-group{
+  margin-top: 10px;
+}
+.btn{
+  margin-top: 15px;
+  width: 25%;
+}
+.enviarEmail{
+  display: flex;
+  width: 100%;
+}
+.msgEmail{
+  text-align: center;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.formEmail{
+  width: 50%;
+}
+.centro{
+  text-align: center;
+}
+.footer{
+  text-align: center;
+  height: 35px;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
+}
+.txt{
+  text-align: center;
+}
+.video{
+  display: flex;
+  justify-content: center;
+}
